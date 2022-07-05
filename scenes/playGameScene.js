@@ -83,7 +83,7 @@ class PlayGameScene extends Phaser.Scene {
     this.physics.add.collider(this.jet, this.bombs, this.gameOver, null, this);
     this.scoreText = this.add.text(15, 15, "Score : 0", {
       fontSize: 26,
-      fill: "green",
+      fill: "white",
     });
   }
    gameOver(jet,bombs){
